@@ -11,5 +11,7 @@ public class Main {
         a = input.nextInt();
         System.out.print("Dik kenarın uzunluğunu giriniz : " );
         b = input.nextInt();
+        c = a * b;
+        System.out.print("Hipotenüsün uzunluğu : " + c);
     }
 }
