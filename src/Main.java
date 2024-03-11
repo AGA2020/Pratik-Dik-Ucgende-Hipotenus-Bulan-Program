@@ -5,13 +5,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int a, b ,c;
-        Scanner input = new Scanner(System.in);
+        double a, b ,c;
+        Scanner girdi = new Scanner(System.in);
         System.out.print("Tabanın uzunluğunu giriniz : " );
-        a = input.nextInt();
+        a = girdi.nextInt();
         System.out.print("Dik kenarın uzunluğunu giriniz : " );
-        b = input.nextInt();
-        c = a * b;
+        b = girdi.nextInt();
+        double ckare = (a*a + b*b);
+        c =  Math.sqrt (ckare);
         System.out.print("Hipotenüsün uzunluğu : " + c);
     }
 }
